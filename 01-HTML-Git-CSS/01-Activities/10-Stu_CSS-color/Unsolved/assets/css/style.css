@@ -1,20 +1,38 @@
-.lesson {
-    width: 200px;
-    height: 100px;
-  }
-  
-.section-blue {
-
+body {
+  max-width: 600px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 40px 0;
 }
-  
-.container {
 
+h2 {
+  padding-top: 20px;
+  text-align: center;
+  text-shadow: 1px 1px 3px black;
 }
 
 #section-1 {
+  background-color: #800080;
+  color: #ffff00;
+  width: 200px;
+  padding-bottom: 75px;
+}
 
+.section-blue {
+  background-color: #0000A8;
+  color: #FFAD14;
+  width: 200px;
+  padding-bottom: 75px;
+}
+
+.container {
+  background: #000;
+  color: #fff;
+  margin: 20px 0;
+  padding: 12px 0;
 }
 
 #section-6 {
-
+  color: yellow;
+  background-color: ;
 }

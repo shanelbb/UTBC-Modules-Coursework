@@ -1,14 +1,104 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Student Bio</title>
   </head>
+  <style>
+    body {
+      background-color: antiquewhite;
+      max-width: 800px;
+      width: 90%;
+      margin: 0 auto;
+      font-family: Arial, Helvetica, sans-serif;
+      color: steelblue;
+    }
 
+    h1 {
+      text-align: center;
+    }
+
+    header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    img {
+      text-align: center;
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      box-shadow: 2px 2px 10px grey;
+      border-radius: 10px;
+    }
+
+    .bio,
+    .contact {
+      margin: 20px;
+      padding: 20px;
+      background-color: steelblue;
+      color: antiquewhite;
+      border-radius: 10px;
+    }
+
+    p,
+    h2 {
+      padding: 0 20px;
+    }
+    a {
+      color: antiquewhite;
+    }
+
+    li {
+      padding-right: 20px;
+    }
+
+    ul {
+      display: flex;
+    }
+  </style>
   <body>
     <!-- TODO: Write Your Code Below-->
-
+    <header>
+      <h1>hi my name is shanel</h1>
+      <img src="../assets/shanel-beebe" alt="Portrait of Shanel" />
+    </header>
+    <main>
+      <section class="bio">
+        <h2>my bio</h2>
+        <p>
+          Hi my name is Shanel. I'm an email developer at Publicis Canada.
+          Before moving into tech I worked as a retail store manager. I studied
+          graphic design and became fascinated with web development and after
+          learning some html and css in a web design class. I am taking this
+          bootcamp so that I can expand my skills as a developer and apply those
+          skills in my career.
+        </p>
+      </section>
+      <section class="contact">
+        <h2>contact me</h2>
+        <ul>
+          <li>
+            <p>
+              <strong>email me</strong>
+              <a href="mailto:shanelbb@gmail.com">here.</a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <strong>see my</strong>
+              <a href="https://github.com/shanelbb">github</a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <strong>check out my</strong>
+              <a href="https://shanelbeebe.com">portfolio</a>
+            </p>
+          </li>
+        </ul>
+      </section>
+    </main>
   </body>
-
 </html>
