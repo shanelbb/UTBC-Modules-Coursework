@@ -10,18 +10,20 @@ body {
 main {
   display: flex;
   margin-top: 2%;
+  flex-wrap: wrap;
 }
 
 .main-header {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding: 60px;
   background: #13293d;
   color: #fff;
 }
 
 .card {
-  flex: 1 0 0;
+  flex: 1 0 33%;
   padding: 10px;
   text-align: center;
   border-style: solid;
