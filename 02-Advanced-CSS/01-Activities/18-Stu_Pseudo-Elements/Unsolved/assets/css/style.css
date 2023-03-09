@@ -60,8 +60,27 @@ article p {
 }
 
 /* TODO: Style the term/phrase - underline, black text, grab cursor */
+.term[data-desc] {
+  position: relative;
+  transition: all 0.5s ease;
+}
+.term:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
 
-/* TODO: Position tooltip above the term/phrase, same color as header and nav links, no border-radius, smaller font size */
+.term[data-desc]:hover::before {
+  content: attr(data-desc);
+  position: absolute;
+  top: -25px;
+  font-size: 65%;
+  color: #d8a47f;
+  background-color: #13293d;
+  padding: 5px;
+  border: #d8a47f 2px solid;
+  border-radius: 5px;
+  z-index: 1;
+}
 
 aside {
   width: 25%;
