@@ -1,0 +1,75 @@
+:root {
+  --bg: #2d2657;
+  --fontColor: #9f6cd2;
+  --white: #fff;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg);
+  color: #fff;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header p {
+  width: 80%;
+  max-width: 800px;
+  text-align: center;
+}
+
+h1 {
+  color: var(--fontColor);
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.cards {
+  margin: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  position: relative;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+h2 {
+  position: absolute;
+  top: -50px;
+  font-size: 1.5rem;
+  width: 80%;
+  border-radius: 10px;
+  background: var(--bg);
+  color: var(--fontColor);
+  padding: 15px;
+  border: 2px solid #fff;
+}
+.snippet {
+  border: 3px dashed #fff;
+  padding: 40px 20px 20px;
+  color: var(--fontColor);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+figure {
+  color: var(--white);
+  font-family: "Courier New", Courier, monospace;
+  background-image: linear-gradient(to top, var(--fontColor), rebeccapurple);
+  padding: 15px;
+  margin: 15px 0;
+  width: 90%;
+  border-radius: 10px;
+}
