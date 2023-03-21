@@ -36,3 +36,11 @@ kittenEl.setAttribute("style", "font-size:25px; text-align:center;");
 favoriteEl.setAttribute("style", "font-size:20px;");
 
 // TODO: Add ordered list items containing four favorite foods
+listEl.setAttribute('style', 'background-color: #333333; padding: 20px;')
+const favFoods = ['apples 🍎', 'pizza 🍕', 'dumplings 🥟','cupcakes 🧁']
+for (let i = 0; i < favFoods.length; i++){
+    var li = document.createElement("li");
+    li.textContent = favFoods[i]
+    li.style.backgroundColor = `#${i+4}a${i+2}c${i}f`;
+    listEl.appendChild(li)
+}
